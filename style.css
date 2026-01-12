@@ -134,7 +134,7 @@ header h1 {
 .post-title {
   font-size: 1.4rem;
   margin-bottom: 1.2rem;
-  font-family: Garamond, serif;
+  font-family: Garamond, "Times New Roman", serif;
 }
 
 .post-title::after {
@@ -285,5 +285,4 @@ footer {
     padding: 1.5rem 1rem;
     font-size: 0.85rem;
   }
-
 }
