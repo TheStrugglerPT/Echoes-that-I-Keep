@@ -232,6 +232,9 @@ footer {
   body {
     font-size: 0.95rem;
     line-height: 1.6;
+    background-size:160%;
+    background-position: bottom;
+    background-attachment: scroll;
   }
 
   .post-header {
@@ -317,4 +320,5 @@ footer {
   }
 
 }
+
 
