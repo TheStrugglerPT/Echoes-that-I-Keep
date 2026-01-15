@@ -254,7 +254,7 @@ footer {
 
    body {
     background-size:auto;
-    background-position: center top;
+    background-position: bottom;
   }
 
   header {
@@ -317,3 +317,4 @@ footer {
   }
 
 }
+
