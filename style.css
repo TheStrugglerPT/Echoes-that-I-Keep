@@ -280,7 +280,8 @@ footer {
   }
 
   .intro-text {
-    font-size: 1.30rem;
+    font-size: 1.05rem;
+    font-weight: bold;
   }
 
   .post {
@@ -317,6 +318,7 @@ footer {
   }
 
 }
+
 
 
 
