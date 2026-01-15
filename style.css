@@ -253,7 +253,7 @@ footer {
 @media (max-width: 700px) {
 
    body {
-    background-size: 200%;
+    background-size:auto;
     background-position: center top;
   }
 
@@ -315,4 +315,5 @@ footer {
     padding: 1.5rem 1rem;
     font-size: 0.85rem;
   }
+
 }
