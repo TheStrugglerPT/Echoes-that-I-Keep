@@ -270,6 +270,13 @@ body::before {
   z-index: -1;
 }
 
+  main {
+
+  min-height: 100vh;
+  padding: 2rem;
+
+  }
+
   header {
     padding: 1.5rem 1rem;
   }
@@ -331,6 +338,7 @@ body::before {
   }
 
 }
+
 
 
 
