@@ -251,16 +251,24 @@ footer {
 
 /* ---------- MOBILE REFINEMENTS ---------- */
 @media (max-width: 768px) {
+body {
+  margin: 0;
+  background-image:url(images/bar.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--text-color);
+}
 
-   body {
-    background-image:url(images/baralternate1.png);
-    inset: 0;
-    background-size: cover;
-    background-position: fixed;
-    background-repeat: no-repeat;
-    z-index: -1;
-    background-attachment: scroll;
-  }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.182); /* adjust opacity */
+  pointer-events: none;
+  z-index: -1;
+}
 
   header {
     padding: 1.5rem 1rem;
@@ -323,6 +331,7 @@ footer {
   }
 
 }
+
 
 
 
