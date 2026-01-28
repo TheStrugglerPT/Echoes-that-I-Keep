@@ -253,6 +253,7 @@ footer {
 @media (max-width: 768px) {
 
    body {
+    position:fixed;
     background-image:url(images/baralternate1.png);
     inset: 0;
     background-size: cover;
@@ -323,6 +324,7 @@ footer {
   }
 
 }
+
 
 
 
