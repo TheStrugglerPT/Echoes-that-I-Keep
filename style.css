@@ -253,7 +253,7 @@ footer {
 @media (max-width: 768px) {
 body {
   margin: 0;
-  background-image:url(images/baralternate1.png);
+  background-image:url(images/bar.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
